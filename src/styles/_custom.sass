@@ -2,31 +2,33 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 45%
+    right: 0%
+
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.banner-principal__img
+  img 
+    width: 80%
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.tema1
+  .tarjeta-avatar-b
+    min-height: 80%
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.titulos-tema-1
+  background-color: #CEBAF6
 
-figcaption
-  font-weight: normal
+.tema2,.tema3
+  .tabla-a table
+    min-width: auto !important
+
+mi.italic
+  font-style: italic
+  font-family: "Roboto", sans-serif
+  font-size: 14px

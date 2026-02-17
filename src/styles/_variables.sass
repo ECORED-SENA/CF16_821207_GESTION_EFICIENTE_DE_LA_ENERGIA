@@ -54,10 +54,10 @@ $color-institucional: #39A900
 
 // Colores Curso ---------------------------------------
 
-$color-primario: #522981
-$color-secundario: #7DD3E9
-$color-acento-contenido: #FF4A69
-$color-acento-botones: #FFCD0D
+$color-primario: #0F58B9
+$color-secundario: #2E0877
+$color-acento-contenido: #00BCD4
+$color-acento-botones: #AD84FF
 $color-adicional-1: #CDDC39
 $color-adicional-2: #00BCD4
 
@@ -78,7 +78,7 @@ $color-btn-fondo: $color-acento-botones
 $color-btn-texto: $color-sistema-texto
 
 // Colores banner --------------------------------------
-$color-banner-fondo: $white
+$color-banner-fondo: $color-primario
 $color-banner-text: $white
 
 // Colores anexos
@@ -198,3 +198,10 @@ $tarjeta-avatar-ancho-img: 150px
 
 $color-btn-b-fondo: $color-acento-contenido
 $color-btn-b-texto: $white
+
+
+@media screen and (max-width: 390px)   
+  .img-bn 
+    margin-left: -49px;  
+  #curso > div > div.container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5 > div.tarjeta.tarjeta--gris.p-4.mb-5.aos-init.aos-animate > div > div.row.flex-nowrap.mx-0.linea-tiempo-c__header.mb-4 > div.col-8.col-sm.px-0 > div > div > div
+    margin-left: -49px;  
